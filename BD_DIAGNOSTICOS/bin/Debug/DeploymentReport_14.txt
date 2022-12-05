@@ -1,0 +1,18 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[CUIDADOS] (Tabla)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[CUIDADOS] (Restricción DEFAULT)
+       [dbo].[CUIDADOS_FK0] (Clave externa)
+       [dbo].[CUIDADOS_FK1] (Clave externa)
+
+** Acciones de compatibilidad

@@ -1,0 +1,17 @@
+﻿CREATE TABLE [dbo].[CUIDADOS]
+(
+	[CuidadosId]        UNIQUEIDENTIFIER DEFAULT NEWID()    NOT NULL,
+    [EnfermedadId]      UNIQUEIDENTIFIER                    NOT NULL,
+    [Descripcion]       VARCHAR(MAX)                        NULL, 
+)
+WITH (DATA_COMPRESSION = NONE);
+GO
+
+ALTER TABLE [dbo].[CUIDADOS] ADD CONSTRAINT [CUIDADOS_PK] PRIMARY KEY ([CuidadosId] asc);
+GO
+
+ALTER TABLE [dbo].[CUIDADOS] ADD CONSTRAINT [CUIDADOS_FK0] FOREIGN KEY ([EnfermedadId])
+    REFERENCES [dbo].[ENFERMEDADES] ([EnfermedadId])
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION;
+GO

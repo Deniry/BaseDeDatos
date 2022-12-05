@@ -1,0 +1,29 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       [dbo].[SINTOMASCAC]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       El tipo de la columna GrupoId de la tabla [dbo].[SINTOMASCAC] es actualmente  INT NULL pero se está cambiando a 
+         UNIQUEIDENTIFIER NULL. No hay conversión implícita ni explícita.
+
+** Acciones del usuario
+     Cambiar nombre
+       [dbo].[SINTOMASCAC].[GrupoId] (Columna)
+     Quitar
+       restricción sin nombre en [dbo].[SINTOMASCAC] (Restricción DEFAULT)
+     Nueva compilación de tablas
+       [dbo].[SINTOMASCAC] (Tabla)
+     Crear
+       [dbo].[SINTOMASCAC_FK1] (Clave externa)
+
+** Acciones de compatibilidad
+     Quitar
+       [dbo].[SINTOMASCAC_FK0] (Clave externa)
+     Crear
+       [dbo].[SINTOMASCAC_FK0] (Clave externa)
+
+El tipo de la columna GrupoId de la tabla [dbo].[SINTOMASCAC] es actualmente  INT NULL pero se está cambiando a  UNIQUEIDENTIFIER NULL. No hay conversión implícita ni explícita.
+

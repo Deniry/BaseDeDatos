@@ -1,0 +1,28 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[CUIDADOS] (Tabla)
+       [dbo].[ENFERMEDADES] (Tabla)
+       [dbo].[GRUPO] (Tabla)
+       [dbo].[SINTOMASCAC] (Tabla)
+       [dbo].[SINTOMASSUCU] (Tabla)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[CUIDADOS] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[ENFERMEDADES] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[GRUPO] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[SINTOMASCAC] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[SINTOMASSUCU] (Restricción DEFAULT)
+       [dbo].[CUIDADOS_FK0] (Clave externa)
+       [dbo].[SINTOMASCAC_FK0] (Clave externa)
+       [dbo].[SINTOMASSUCU_FK0] (Clave externa)
+       [dbo].[SINTOMASSUCU_FK1] (Clave externa)
+
+** Acciones de compatibilidad

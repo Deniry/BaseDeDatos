@@ -1,0 +1,36 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       [dbo].[ENFERMEDADES]
+     Índices clúster que se van a quitar
+       [dbo].[SUCULENTAS_PK] en [dbo].[SUCULENTAS]
+     Índices clúster que se van a crear
+       [dbo].[SUCULENTAS_PK] en [dbo].[SUCULENTAS]
+     Posibles incidencias de datos
+       Debe agregarse la columna [dbo].[ENFERMEDADES].[CactusId] de la tabla [dbo].[ENFERMEDADES], pero esta columna no tiene
+         un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar
+         esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la
+         generación de valores predeterminados inteligentes como opción de implementación.
+
+** Acciones del usuario
+     Quitar
+       restricción sin nombre en [dbo].[ENFERMEDADES] (Restricción DEFAULT)
+       [dbo].[SUCULENTAS_PK] (Clave principal)
+     Nueva compilación de tablas
+       [dbo].[ENFERMEDADES] (Tabla)
+     Crear
+       [dbo].[CACTUS] (Tabla)
+       [dbo].[SINTOMAS] (Tabla)
+       [dbo].[SUCULENTAS_PK] (Clave principal)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[CACTUS] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[SINTOMAS] (Restricción DEFAULT)
+       [dbo].[ENFERMEDADES_FK1] (Clave externa)
+       [dbo].[SINTOMAS_FK0] (Clave externa)
+
+** Acciones de compatibilidad
+     Quitar
+       [dbo].[ENFERMEDADES_FK0] (Clave externa)
+     Crear
+       [dbo].[ENFERMEDADES_FK0] (Clave externa)
+
+Debe agregarse la columna [dbo].[ENFERMEDADES].[CactusId] de la tabla [dbo].[ENFERMEDADES], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+

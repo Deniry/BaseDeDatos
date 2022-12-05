@@ -1,0 +1,60 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       [dbo].[CUIDADOS]
+       [dbo].[ENFERMEDADES]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Se está quitando la columna [dbo].[CUIDADOS].[CactusId]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[CUIDADOS].[NombreSintoma]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[CUIDADOS].[SuculentasId]; puede que se pierdan datos.
+       Debe agregarse la columna [dbo].[CUIDADOS].[EnfermedadId] de la tabla [dbo].[CUIDADOS], pero esta columna no tiene un
+         valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar
+         esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la
+         generación de valores predeterminados inteligentes como opción de implementación.
+       Se está quitando la columna [dbo].[ENFERMEDADES].[CactusId]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[ENFERMEDADES].[DescripcionLarga]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[ENFERMEDADES].[Imagen]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[ENFERMEDADES].[NombreEnfermedad]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[ENFERMEDADES].[SuculentasId]; puede que se pierdan datos.
+       Debe agregarse la columna [dbo].[ENFERMEDADES].[Nombre] de la tabla [dbo].[ENFERMEDADES], pero esta columna no tiene un
+         valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar
+         esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la
+         generación de valores predeterminados inteligentes como opción de implementación.
+
+** Acciones del usuario
+     Quitar
+       restricción sin nombre en [dbo].[CUIDADOS] (Restricción DEFAULT)
+       restricción sin nombre en [dbo].[ENFERMEDADES] (Restricción DEFAULT)
+       [dbo].[CUIDADOS_FK0] (Clave externa)
+       [dbo].[CUIDADOS_FK1] (Clave externa)
+       [dbo].[ENFERMEDADES_FK0] (Clave externa)
+       [dbo].[ENFERMEDADES_FK1] (Clave externa)
+       [dbo].[SINTOMAS_FK0] (Clave externa)
+     Nueva compilación de tablas
+       [dbo].[CUIDADOS] (Tabla)
+       [dbo].[ENFERMEDADES] (Tabla)
+     Crear
+       [dbo].[SINTOMASCAC] (Tabla)
+       [dbo].[SINTOMASSUCU] (Tabla)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[SINTOMASCAC] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[SINTOMASSUCU] (Restricción DEFAULT)
+       [dbo].[CUIDADOS_FK0] (Clave externa)
+       [dbo].[SINTOMASCAC_FK0] (Clave externa)
+       [dbo].[SINTOMASSUCU_FK0] (Clave externa)
+
+** Acciones de compatibilidad
+
+Se está quitando la columna [dbo].[CUIDADOS].[CactusId]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[CUIDADOS].[NombreSintoma]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[CUIDADOS].[SuculentasId]; puede que se pierdan datos.
+Debe agregarse la columna [dbo].[CUIDADOS].[EnfermedadId] de la tabla [dbo].[CUIDADOS], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+Se está quitando la columna [dbo].[ENFERMEDADES].[CactusId]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[ENFERMEDADES].[DescripcionLarga]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[ENFERMEDADES].[Imagen]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[ENFERMEDADES].[NombreEnfermedad]; puede que se pierdan datos.
+Se está quitando la columna [dbo].[ENFERMEDADES].[SuculentasId]; puede que se pierdan datos.
+Debe agregarse la columna [dbo].[ENFERMEDADES].[Nombre] de la tabla [dbo].[ENFERMEDADES], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+

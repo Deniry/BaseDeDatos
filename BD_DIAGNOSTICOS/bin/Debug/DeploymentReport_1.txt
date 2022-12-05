@@ -1,0 +1,21 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       [dbo].[ENFERMEDADES]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       El tipo de la columna EnfermedadId de la tabla [dbo].[ENFERMEDADES] es actualmente  INT NOT NULL pero se está cambiando
+         a  UNIQUEIDENTIFIER NOT NULL. No hay conversión implícita ni explícita.
+
+** Acciones del usuario
+     Nueva compilación de tablas
+       [dbo].[ENFERMEDADES] (Tabla)
+     Crear
+       [dbo].[SUCULENTAS] (Tabla)
+
+** Acciones de compatibilidad
+
+El tipo de la columna EnfermedadId de la tabla [dbo].[ENFERMEDADES] es actualmente  INT NOT NULL pero se está cambiando a  UNIQUEIDENTIFIER NOT NULL. No hay conversión implícita ni explícita.
+

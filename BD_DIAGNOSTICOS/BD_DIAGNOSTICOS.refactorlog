@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="304f4660-22fe-48b1-b82e-00f7fa63660a" ChangeDateTime="12/05/2022 17:32:33">
+    <Property Name="ElementName" Value="[dbo].[SINTOMASCAC].[Grupos]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SINTOMASCAC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GrupoId" />
+  </Operation>
+</Operations>

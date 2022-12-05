@@ -1,0 +1,6 @@
+C:\Users\drago\source\repos\Databases\BD_DIAGNOSTICOS\bin\Debug\BD_DIAGNOSTICOS.dacpac
+C:\Users\drago\source\repos\Databases\BD_DIAGNOSTICOS\bin\Debug\BD_DIAGNOSTICOS.dll
+C:\Users\drago\source\repos\Databases\BD_DIAGNOSTICOS\bin\Debug\BD_DIAGNOSTICOS.pdb
+C:\Users\drago\source\repos\Databases\BD_DIAGNOSTICOS\obj\Debug\BD_DIAGNOSTICOS.sqlproj.AssemblyReference.cache
+C:\Users\drago\source\repos\Databases\BD_DIAGNOSTICOS\obj\Debug\BD_DIAGNOSTICOS.dll
+C:\Users\drago\source\repos\Databases\BD_DIAGNOSTICOS\obj\Debug\BD_DIAGNOSTICOS.pdb

@@ -1,0 +1,27 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Debe agregarse la columna [dbo].[SINTOMASCAC].[Grupos] de la tabla [dbo].[SINTOMASCAC], pero esta columna no tiene un
+         valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar
+         esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la
+         generación de valores predeterminados inteligentes como opción de implementación.
+       Debe agregarse la columna [dbo].[SINTOMASSUCU].[Grupos] de la tabla [dbo].[SINTOMASSUCU], pero esta columna no tiene un
+         valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar
+         esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la
+         generación de valores predeterminados inteligentes como opción de implementación.
+
+** Acciones del usuario
+     Modificar
+       [dbo].[SINTOMASCAC] (Tabla)
+       [dbo].[SINTOMASSUCU] (Tabla)
+
+** Acciones de compatibilidad
+
+Debe agregarse la columna [dbo].[SINTOMASCAC].[Grupos] de la tabla [dbo].[SINTOMASCAC], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+Debe agregarse la columna [dbo].[SINTOMASSUCU].[Grupos] de la tabla [dbo].[SINTOMASSUCU], pero esta columna no tiene un valor predeterminado y no admite valores NULL. Si la tabla contiene datos, el script ALTER no funcionará. Para evitar esta incidencia, agregue un valor predeterminado a la columna, márquela de modo que permita valores NULL o habilite la generación de valores predeterminados inteligentes como opción de implementación.
+

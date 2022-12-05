@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[SINTOMASCAC]
+(
+	[SintomaCacId]      UNIQUEIDENTIFIER DEFAULT NEWID()    NOT NULL,
+    [EnfermedadId]      UNIQUEIDENTIFIER                    NOT NULL,
+    [Nombre]            VARCHAR (200)                       NOT NULL,
+    [Descripcion]       VARCHAR(MAX)                        NULL,
+    [GrupoId]           UNIQUEIDENTIFIER                    NULL,
+)
+WITH (DATA_COMPRESSION = NONE);
+GO
+
+ALTER TABLE [dbo].[SINTOMASCAC] ADD CONSTRAINT [SINTOMASCAC_PK] PRIMARY KEY ([SintomaCacId] asc);
+GO
+
+ALTER TABLE [dbo].[SINTOMASCAC] ADD CONSTRAINT [SINTOMASCAC_FK0] FOREIGN KEY ([EnfermedadId])
+    REFERENCES [dbo].[ENFERMEDADES] ([EnfermedadId])
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION;
+GO
+
+ALTER TABLE [dbo].[SINTOMASCAC] ADD CONSTRAINT [SINTOMASCAC_FK1] FOREIGN KEY ([GrupoId])
+    REFERENCES [dbo].[GRUPO] ([GrupoId])
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION;
+GO

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BD_DIAGNOSTICOS", "BD_DIAGNOSTICOS\BD_DIAGNOSTICOS.sqlproj", "{B0743342-334F-4A3C-90A1-BC95BCF67881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0743342-334F-4A3C-90A1-BC95BCF67881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0743342-334F-4A3C-90A1-BC95BCF67881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0743342-334F-4A3C-90A1-BC95BCF67881}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B0743342-334F-4A3C-90A1-BC95BCF67881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0743342-334F-4A3C-90A1-BC95BCF67881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0743342-334F-4A3C-90A1-BC95BCF67881}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE4F79D8-29A0-47A1-9D59-B4C224D0ECDD}
+	EndGlobalSection
+EndGlobal
